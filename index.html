@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Saif Mohamed Alyileili - Profile</title>
+  <style>
+    body{margin:0;font-family:system-ui,Segoe UI,Arial;background:#f5f6f8;display:flex;justify-content:center;align-items:center;min-height:100vh}
+    .card{background:#fff;border-radius:14px;max-width:900px;box-shadow:0 8px 30px rgba(0,0,0,0.08);overflow:hidden}
+    .photo{width:100%;background:#000}
+    .photo img{width:100%;height:auto;display:block;object-fit:contain;max-height:80vh}
+    .info{padding:22px}
+    h1{margin:0 0 10px;font-size:28px}
+    p{margin:8px 0;line-height:1.7;color:#333;font-size:18px}
+    .contact a{display:inline-block;padding:10px 16px;border-radius:8px;background:#0b5fff;color:#fff;text-decoration:none;font-size:15px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="photo">
+      <img src="saif.jpg" alt="Saif Mohamed Alyileili" onerror="this.onerror=null; this.src='saif.jpeg';">
+      <script>
+        // third fallback: .JPG
+        document.currentScript.previousElementSibling.addEventListener('error', function(){ this.src = 'saif.JPG'; });
+      </script>
+    </div>
+    <div class="info">
+      <h1>Saif Mohamed Alyileili</h1>
+      <p>Saif Mohamed Alyileili is a Bachelor’s student in Business Administration & Accounting at the University of Khorfakkan. He currently works with Sharjah Police and has seven months of practical finance experience. Saif is interested in corporate finance, accounting, and project management. Contact: saif.alyileili@example.com</p>
+    </div>
+  </div>
+</body>
+</html>
